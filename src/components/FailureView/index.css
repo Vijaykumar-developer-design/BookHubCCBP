@@ -1,0 +1,21 @@
+.failureDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failureImg {
+  height: 300px;
+  width: 50%;
+}
+.retrybtn {
+  margin-top: 30px;
+  background: #0284c7;
+  border: none;
+  padding: 10px;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}

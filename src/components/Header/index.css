@@ -1,0 +1,134 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.navlogo {
+  width: 133px;
+  height: 41px;
+  top: 24px;
+  left: 150px;
+}
+.links {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  /* border: 2px solid red; */
+  /* margin-left: -60px; */
+  width: 50%;
+}
+.link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+  /* margin-left: 30px; */
+}
+.headerLink {
+  /* border: 2px solid green; */
+  margin-left: -40px;
+}
+.selects {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  /* margin-left: 30px; */
+}
+.logout {
+  background: #0284c7;
+  border: none;
+  padding: 8px;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.menuIcon {
+  font-size: 30px;
+  /* border: 2px solid red; */
+}
+.overlay {
+  /* border: 2px solid red; */
+  height: 50px;
+  width: 100%;
+  /* position: absolute; */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  background-color: transparent;
+  overflow-y: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notOver {
+  display: none;
+}
+.smallmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+.cancel {
+  color: black;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 576px) {
+  .selects {
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .links {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+  .navlogo {
+    width: 120px;
+    height: 35px;
+    top: 24px;
+    left: 150px;
+  }
+  .logout {
+    background: #0284c7;
+    border: none;
+    font-weight: 200;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .link {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .menuIcon {
+    display: none;
+  }
+  .smallmenu {
+    display: none;
+  }
+}

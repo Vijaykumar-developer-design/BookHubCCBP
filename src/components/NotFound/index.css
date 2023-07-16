@@ -1,0 +1,23 @@
+.notfound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notimg {
+  width: 80%;
+  height: 300px;
+}
+.goback {
+  background-color: #0284c7;
+  padding: 10px;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}

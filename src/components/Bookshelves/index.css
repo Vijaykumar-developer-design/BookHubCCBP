@@ -1,0 +1,327 @@
+.shelfbg {
+  /* height: 100vh; */
+  min-height: 100vh;
+  background-color: lightgray;
+}
+.booksUlList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -25px;
+  /* border: 2px solid red; */
+}
+.bookItemLink {
+  text-decoration: none;
+  color: black;
+  /* border: 2px solid blue; */
+}
+.ullist {
+  list-style: none;
+  margin-left: -35px;
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+  /* border: 2px solid green; */
+  width: 100%;
+}
+.menuhead {
+  font-size: 20px;
+}
+.listitem {
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  font-size: 15px;
+  font-weight: bold;
+}
+.munuitems {
+  min-height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 200px;
+  /* width: 300px; */
+}
+.searchtop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 2px solid blue; */
+  position: relative;
+}
+.booksdivs {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+
+.searchinput {
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  /* border: 2px solid red; */
+}
+.searchIcon {
+  background-color: gray;
+  font-size: 36px;
+  padding: 8px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.search-small-btn {
+  background-color: gray;
+  outline: none;
+  border: none;
+}
+.searchIconDiv {
+  display: flex;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.itemsContainer {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* s */
+}
+.bookscategoryText {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  /* border: 2px solid red; */
+}
+.bookssContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid green; */
+  /* width: 100%; */
+  /* width: 500px; */
+}
+.bookItem {
+  height: 200px;
+  /* width: 100%; */
+  display: flex;
+  /* border: 2px solid red; */
+}
+.bookImg {
+  width: 150px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.bookTitle {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 17px;
+  /* border: 2px solid green; */
+}
+.authorName {
+  columns: gray;
+  /* border: 2px solid green; */
+  row-gap: 2px;
+  margin-top: -5px;
+}
+.bookLink {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  width: 47%;
+  /* border: 2px solid red; */
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 2px solid green; */
+  width: 50%;
+  margin-left: 10px;
+}
+.rating {
+  margin-top: -5px;
+}
+.staricon {
+  color: #fbbf24;
+}
+.iconspan {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.status {
+  color: gray;
+  font-weight: bold;
+  margin-top: -5px;
+}
+.spanstatus {
+  color: blue;
+  font-size: 15px;
+}
+.makeBlue {
+  color: blue;
+}
+.nobooks {
+  width: 80%;
+  height: 450px;
+}
+.nobookscontinaer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.lowerDiv {
+  /* border: 2px solid black; */
+  width: 100%;
+}
+.ullistsmall {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+  margin-left: -40px;
+}
+.listitemsmall {
+  border: 2px solid #0284c7;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  padding: 4px;
+  min-width: 50px;
+  text-align: center;
+  color: #0284c7;
+}
+.applyBg {
+  background: #0284c7;
+  color: white;
+}
+.menuheadsmall {
+  font-size: 20px;
+}
+.lowerDivSmall {
+  width: 100%;
+}
+
+.searchinputsmall {
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.searchIconDivSmall {
+  display: flex;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.searchinputsmall {
+  background-color: inherit;
+}
+@media screen and (max-width: 576px) {
+  .booksUlList {
+    margin-left: -40px;
+  }
+  .booksdivs {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchtop {
+    display: none;
+  }
+  .bookssContainer {
+    order: 1;
+    /* border: 2px solid green; */
+  }
+  .munuitems {
+    display: none;
+  }
+  .nobooks {
+    width: 70%;
+  }
+  .bookLink {
+    width: 100%;
+  }
+  .bookItem {
+    height: 150px;
+  }
+  .bookTitle {
+    font-size: 15px;
+  }
+  .spanstatus {
+    font-size: 15px;
+  }
+  .rating {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .searchIconDivSmall {
+    display: none;
+  }
+  .munuitemssmall {
+    display: none;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .bookLink {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .bookImg {
+    width: 40%;
+  }
+}
+/* @media screen and (min-width: 769px) {
+  .bookLink {
+    width: 47%;
+    border: 2px solid red;
+  }
+} */
+@media screen and (max-width: 280px) {
+  .bookTitle {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .rating {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .status {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .spanstatus {
+    font-size: 8px;
+    line-height: 10px;
+
+    /* border: 2px solid red; */
+  }
+  .details {
+    margin-top: 10px;
+    /* border: 2px solid red; */
+  }
+  .authorName {
+    font-size: 10px;
+  }
+  .bookLink {
+    /* border: 2px solid red; */
+    margin-left: -5px;
+  }
+}

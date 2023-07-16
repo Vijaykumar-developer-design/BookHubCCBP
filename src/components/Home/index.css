@@ -1,0 +1,299 @@
+@media screen and (min-width: 786px) {
+  .books-responsive-btn-sm {
+    display: none;
+  }
+}
+
+.home-page-bg-container {
+  flex-direction: row;
+  background-color: rgb(237, 237, 242);
+  flex-grow: grow;
+
+  padding: 35px;
+}
+.home-top-rated-container {
+  padding-left: 35px;
+  padding-right: 35px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 35px;
+}
+.top-rated-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center;
+}
+.home-find-books-btn {
+  background-color: #0284c7;
+  color: white;
+  height: 30px;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+.top-rated-card-btn {
+  margin: 10px;
+  background-color: inherit;
+  border: none;
+}
+@media screen and (max-width: 786px) {
+  .books-responsive-btn-lg {
+    display: none;
+  }
+  .top-rated-heading {
+    font-size: 15px;
+  }
+}
+
+.top-rated-book-image {
+  height: 30vh;
+  width: 20vw;
+}
+@media screen and (max-width: 787px) {
+  .top-rated-book-image {
+    max-height: 20vh;
+    width: 25vw;
+    margin-top: 5px;
+    align-items: center;
+  }
+}
+.top-rated-book-name {
+  font-size: 15px;
+  font-family: inter;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.top-rated-books-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-rated-books-failure-btn {
+  border: none;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icon {
+  font-size: 20px;
+  margin: 10px;
+}
+.iconsdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+/* .homebg {
+  min-height: 100vh;
+  background-color: #98989859;
+}
+.homeHead {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 15px;
+}
+.descriptionHome {
+  margin-left: 15px;
+}
+.toprateddiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 50px;
+}
+.seconddiv {
+  width: 90%;
+}
+.lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slickdiv {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  height: 45vh;
+}
+.toprate {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: 20px;
+}
+.findbooksbtn {
+  margin-right: 20px;
+  background: #0284c7;
+  border: none;
+  padding: 10px;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.link {
+  text-decoration: none;
+}
+
+.coverpage {
+  width: 100%;
+  height: 100px;
+}
+.slickIitem {
+  max-width: 250px;
+
+  height: 200px;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.sliders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.covertitle {
+  text-align: center;
+  font-size: 15px;
+  line-height: 5px;
+}
+.authorName {
+  text-align: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slider-container {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.icon {
+  font-size: 20px;
+  margin: 10px;
+}
+.iconsdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23px;
+}
+.iconlink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  margin-top: 30px;
+  min-height: 300px;
+}
+
+.smallFindBooksbtn {
+  margin-bottom: 20px;
+  background: #0284c7;
+  border: none;
+  padding: 10px;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 576px) {
+  .findbooksbtn {
+    display: none;
+  }
+  .sliderview {
+    display: none;
+  }
+  .smallSlider {
+    display: block;
+    width: 80%;
+  }
+  .bigSlider {
+    display: none;
+  }
+  .slickIitem {
+    max-width: 100px;
+
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .covertitle {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .authorName {
+    font-size: 10px;
+  }
+  .homeHead {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 15px;
+  }
+  .failureImg {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 577px) {
+  .smallFindBooksbtn {
+    display: none;
+  }
+  .smallSlider {
+    display: none;
+  }
+  .bigSlider {
+    display: block;
+  }
+}
+@media screen and (max-width: 280px) {
+  .covertitle {
+    line-height: 10px;
+    font-size: 10px;
+  }
+} */

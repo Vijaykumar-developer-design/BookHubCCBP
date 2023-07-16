@@ -1,0 +1,7 @@
+.loader-container {
+  height: 100vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
